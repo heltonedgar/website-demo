@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Moto Táxi</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+          <img src="img/logomoto.png" width="120" height="90" alt="MotoExpress Logo">
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#Moto Táxi Rápido e Seguro">Início</a></li>
+            <li><a href="#Por que escolher Mototaxi?">Recursos</a></li>
+            <li><a href="#como Funciona!">Como Funciona</a></li>
+            <li><a href="#Entrar" data-bs-toggle="modal" data-bs-target="#myModal">
+                  Entrar
+            </a></li>         
+            <li><a href="#Cadastrar-se" data-bs-toggle="modal" data-bs-target="#Modal" >
+              Cadastrar-se
+            </a></li>
+          </ul>
+        </nav>
+      </header>
+      
+      <div id="Moto Táxi Rápido e Seguro">
+      <div class="containerr">
+          <p><h2><b>Moto Táxi Rápido e Seguro</b></h2></p>
+        <p>Viaje com conforto e economia em qualquer hora e lugar</p>
+      <a href="solicitar corrida"><button class="button">Solicitar Corrida</button></a>
+      </div>
+      </div>
+    
+             <!-- cards -->
+        <div id="Por que escolher Mototaxi?">
+      <h1><b>Por que escolher Moto  Táxi ?</b></h1>
+      <div class="flex-container">
+        <div> <div class="cardd">
+            <h3>Rápido e Eficiente</h3>
+            <p>Chegue ao seu destino rapidamente,evitando o trânsito</p>
+          </div></div>
+        <div> <div class="cardd">
+            <h3>Segurança Garantida</h3>
+            <p>Motoristas verificados e equipamentos de segurança</p>
+          </div></div>
+          <div class="flex-container">
+        <div> <div class="cardd">
+            <h3>Preços Justos</h3>
+            <p>Tarifas calculadas com base na distância percorrida</p>
+          <!-- </div> -->
+           </div></div>
+            <div> <div class="cardd">
+                <h3>Disponível 24/7</h3>
+                <p>Serviço disponível a qualquer hora do dia ou da noite</p>
+              </div></div>
+              </div>
+            </div>
+          <!-- intrucoes como usar -->
+          <div id="como Funciona!">
+        <hr><h1>Como Funciona!</h1> 
+       <div class="flex-containerrs">
+        <!-- <p><h1>como Funciona!</h1></p> -->
+        <div>  <p><h2><b>1</b></h2></p>
+        <p><h3>Cadastre-se</h3></p>
+      <p>Crie sua conta gratuitamente para acessar o serviço</p></div>
+        <div><p><h2><b>2</b></h2></p>
+        <p><h3>Solicite uma Corrida</h3></p>
+      <p>Informe seu destino e escolha um motorista próximo</p></div>
+        <div><p><h2><b>3</b></h2></p>
+        <p><h3>Acompanhe sua Viagem</h3></p>
+      <p>Veja o percurso em tempo real e o valor estimado</p></div>  
+        <div><p><h2><b>4</b></h2></p>
+        <p><h3>Pague e Avalie</h3></p>
+      <p>Efetue o pagamento e avalie o serviço ao final da corrida</p></div>
+      </div>    
+      <div class="partner-driver">
+         <h1>seja um motorista parceiro</h1>
+         <p>Ganhe dinheiro extra trabalhando nos horários que você escolher</p>
+         <!-- <a href="button"><button>Cadastre-se como Motorista</button></a> -->
+         <button type="button"  data-bs-toggle="modal" data-bs-target="#mymoto">
+          Cadastre-se como Motorista
+        </button>
+        
+  
+        </div>  
+        <!-- model Entrar -->
+         <!-- The Modal -->
+<div class="modal fade" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">preencha</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        <form>
+          <label for="nome"></label>
+          <input type="text" id="nome" placeholder="Insira seu nome">
+          <p>
+          <label for="numero"></label>
+          <input type="tel" id="numero" placeholder="Insira seu número de telefone">
+          <p>
+        </form>
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+    <a href="entrar"><button type="button" class="btn btn-danger" data-bs-dismiss="modal">entrar</button>
+    </a>   
+    </div>
+    </div>
+  </div>
+</div>
+<!-- Cadastrar-se -->
+  <!-- The Modal -->
+<div class="modal fade" id="Modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">preencha o formulario</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        <form>
+          <label for="nome"></label>
+          <input type="text" id="nome" placeholder="Insira seu nome">
+          <p>
+          <p>
+          <label for="numero"></label>
+          <input type="tel" id="numero" placeholder="Insira seu número de telefone">
+          <p>
+          <label for="email"></label>
+          <input type="email" id="email" placeholder="Insira seu e-mail">
+          <p>
+          <label for="password"></label>
+          <input type="password" id="password" placeholder="Insira sua senha">
+        </form>
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+    <a href="entrar"><button type="button" class="btn btn-danger" data-bs-dismiss="modal">entrar</button>
+    </a>   
+    </div>
+    </div>
+  </div>
+</div>
+ <!-- cadastrar se para ser motorista  -->
+ <div class="modal fade" id="mymoto">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">preencha o formulario</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        <form>
+          <label for="nome"></label>
+          <input type="text" id="nome" placeholder="Insira seu nome">
+          <p>
+          <p>
+          <label for="numero"></label>
+          <input type="tel" id="numero" placeholder="Insira seu número de telefone">
+          <p>
+          <label for="email"></label>
+          <input type="email" id="email" placeholder="Insira seu e-mail">
+          <p>
+          <label for="password"></label>
+          <input type="password" id="password" placeholder="Insira sua senha">
+          <p>
+            <label for="matricula da moto"></label>
+            <input type="matricula da moto" id="matricula da moto" placeholder="Insira sua matricula da moto">
+            <p>
+              <label for="cor da moto"></label>
+              <input type="cor da moto" id="cor da moto" placeholder="Insira a cor da moto">
+              <p>
+                <label for="numero de B.I"></label>
+                <input type="numero de B.I" id="numero de B.I" placeholder="Insira numero de B.I">
+        </form>
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+    <a href="entrar"><button type="button" class="btn btn-danger" data-bs-dismiss="modal">entrar</button>
+    </a>   
+    </div>
+    </div>
+  </div>
+</div>
+ 
+    <footer>
+        <p>&copy; <b>2024 Moto Táxi. Todos os direitos reservados.</b></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
